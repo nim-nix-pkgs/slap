@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-SLAP-master.flake = false;
+  inputs.src-SLAP-master.ref   = "refs/heads/master";
   inputs.src-SLAP-master.owner = "bichanna";
-  inputs.src-SLAP-master.ref   = "master";
   inputs.src-SLAP-master.repo  = "slap";
   inputs.src-SLAP-master.type  = "github";
   
