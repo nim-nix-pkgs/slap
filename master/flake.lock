@@ -42,11 +42,11 @@
     "src-SLAP-master": {
       "flake": false,
       "locked": {
-        "lastModified": 1648082323,
-        "narHash": "sha256-Msl5kxdHqSP9OuG1BCwQa2KpxbW30TqlY9FebJ3vJOY=",
+        "lastModified": 1648171084,
+        "narHash": "sha256-0A+y+/CaDrhAvuxIESfbzGLzoALAzBqegFDcizAlljM=",
         "owner": "bichanna",
         "repo": "slap",
-        "rev": "0b336b4a493f5fc0577f0070e5ba0d82e134c907",
+        "rev": "ab0deab49536386593993fcc259bf32ccf481ecd",
         "type": "github"
       },
       "original": {
