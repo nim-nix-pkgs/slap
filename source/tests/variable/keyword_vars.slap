@@ -1,0 +1,5 @@
+let for = "a";
+
+#{
+SyntaxError: Expected an identifier
+}#

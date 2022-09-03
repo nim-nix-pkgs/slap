@@ -1,0 +1,13 @@
+let a = "outer";
+
+{
+  let a = "inner";
+  println(a); # inner
+}
+
+println(a); # outer
+
+#{
+inner
+outer
+}#

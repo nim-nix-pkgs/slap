@@ -1,0 +1,4 @@
+println(abc);
+#{
+RuntimeError: 'abc' is not defined
+}#

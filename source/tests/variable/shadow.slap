@@ -1,0 +1,11 @@
+let a = "global";
+{
+  let a = "shadow";
+  println(a); # shadow
+}
+println(a); # global
+
+#{
+shadow
+global
+}#

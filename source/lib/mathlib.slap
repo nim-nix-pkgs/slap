@@ -1,0 +1,43 @@
+#
+# std.slap
+# SLAP
+#
+# Created by Nobuharu Shimazu on 2/22/2022
+#
+# Import this file by `import "math";`
+
+# math.slap contains math functions.
+
+# Well, it's just pi.
+let Pi = 3.14159265358979323846264338327950288419716939937510;
+
+# E, the base of the natural logarithm
+let E = 2.71828182845904523536028747135266249775724709369995;
+
+# abs returns the absolute value of a real number
+# signature: abs(n: int | float): int | float
+def abs(n) {
+	if (n >= 0) return n;
+	return -n;
+}
+
+# pow returns the value of base b to the power e
+# signature: pow(b: int | float, e: int | float): int | float
+def pow(b, e) {
+	if (e == 0) return 1;
+	let result = b;
+	for ($i = 1; i < e; i += 1) result *= b;
+	return result;
+}
+
+# sqrt returns the square root of n
+# signature: sqrt(n: int | float): float
+def sqrt(n) {
+	let num = n / 2;
+	let tmp = 0;
+	while (num != tmp) {
+		tmp = num;
+		num = (n / tmp + tmp) / 2;
+	}
+	return num;
+}
