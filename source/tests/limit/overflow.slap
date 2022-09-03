@@ -1,7 +1,0 @@
-let a = 12;
-while (true) { # RuntimeError: Over- or underflow
-	a = a * a * a;
-}
-#{
-RuntimeError: Over- or underflow
-}#

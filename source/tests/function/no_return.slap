@@ -1,7 +1,0 @@
-def returnsNull() {}
-
-println(returnsNull()); # null
-
-#{
-null
-}#

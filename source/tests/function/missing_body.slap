@@ -1,6 +1,0 @@
-def someFunc() println("Hello World"); # SyntaxError: Expected '{' before function body
-
-
-#{
-SyntaxError: Expected '{' before function body
-}#

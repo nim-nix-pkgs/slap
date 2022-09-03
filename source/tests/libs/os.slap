@@ -1,9 +1,0 @@
-import "os";
-
-execProcess("echo 'Hello World!'");
-
-execProcess("pwd");
-
-#{
-Hello World!
-}#
